@@ -1,0 +1,22 @@
+{
+  "name": "OpenClaw-Bridge",
+  "role": "engineer",
+  "capabilities": "general-purpose",
+  "adapterType": "openclaw_gateway",
+  "adapterConfig": {
+    "url": "ws://127.0.0.1:18789",
+    "authToken": "REPLACE_WITH_YOUR_OPENCLAW_TOKEN",
+    "disableDeviceAuth": false,
+    "autoPairOnFirstConnect": true,
+    "sessionKeyStrategy": "issue",
+    "waitTimeoutMs": 120000,
+    "timeoutSec": 180
+  },
+  "runtimeConfig": {
+    "heartbeat": {
+      "enabled": true,
+      "cooldownSec": 10,
+      "intervalSec": 300
+    }
+  }
+}
