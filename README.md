@@ -92,6 +92,10 @@ Actual log from a real run:
 
 > "Сейчас вторник (Tue 2026-06-30, 07:02 UTC), а 7*6 = 42. Handshake работает end-to-end: Paperclip → /api/issues/{id} → OpenClaw-Bridge (ws://127.0.0.1:18789, scopes: operator.admin/write/read) → wormsoft → MiniMax-M3."
 
+## 📰 In the wild
+
+- **Writeup on vc.ru** (2026-07-01): [«Запустил self-hosted AI-агента за вечер — и не заплатил OpenAI ни рубля»](https://vc.ru/ai/3006832-zapustil-self-hosted-ai-agenta-za-vecher-i-ne-zaplatil-openai-ni-rublya) — the story of how this whole stack came together in one evening.
+
 ## What doesn't work (yet)
 
 - **CEO via `codex_local` adapter** — it's hard-coded to ChatGPT subscription auth. Use `openclaw_gateway` instead.
